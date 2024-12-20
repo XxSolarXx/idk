@@ -10479,7 +10479,7 @@ addcmd("Fuck", {"rape"}, function(args, speaker)
 	end
 end)
 
-addcmd("unbang", {"unrape"}, function(args, speaker)
+addcmd("unfuck", {"unrape"}, function(args, speaker)
 	if bangDied then
 		bangDied:Disconnect()
 		bang:Stop()
